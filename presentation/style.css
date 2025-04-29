@@ -1,0 +1,161 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: lightblue;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 35px;
+
+}
+.navbar a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.heading1{
+margin-left: 50px;
+color: black;
+
+}
+
+.paragragh1{
+    margin: 30px;
+    color: black;
+}
+
+.image1 {
+display: block;
+size: 10px;
+border-radius: 50%;
+width: 500px;
+margin: 10px;
+align-items: center;
+}
+
+.heading2 {
+    margin-left: 50px;
+    color:black;
+}
+
+.paragraph2{
+    margin: 30px;
+    color: black;
+}
+
+.image2 {
+    display: block;
+    size: 10px;
+    border-radius: 25px;
+    width: 550px;
+    align-items: center;
+}
+
+
+
+.footer {
+    padding: 80px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-brand h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-brand p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 12px;
+}
+
+.footer-links ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #d81557;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+     }
+        }
